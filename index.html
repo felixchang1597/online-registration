@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Online Registration Form</title>
+    <meta name="Online Registration Form" content="Online Registration Form">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header" id="home">
+        <h1>The Code Review</h1>
+        <h2>Sign up for our newsletter</h2>
+        <h3>Get the latest news on how your code is doing right in your inbox</h3>
+        <hr class="first-hr">
+        <hr class="second-hr">
+    </header>
+
+    <main class="main-class">
+        <fieldset>
+            <h4>Contact Information</h4>
+            <form>
+                <label for="full-name">Full name</label>
+                <input type="text" id="full-name" name="full_name" placeholder="required">
+
+                <br>
+                <label for="email-address">Email address</label>
+                <input type="email" id="email-address" name="email_address" placeholder="required">
+
+                <br>
+                <label for="phone-number">Phone number</label>
+                <input type="tel" id="phone-number" name="phone_number">
+
+                <br>
+                <label for="address">Street address</label>
+                <input type="text" id="address" name="street_address">
+
+                <br>
+                <label for="city">City</label>
+                <input type="text" id="city" name="city_name">
+
+                <br>
+                <label for="state_selections">State</label>
+                <select id="state_selections" name="states_selectors">
+                <option value = "empty"></option>
+                <option value = "1">one</option>
+                <option value = "2">two</option>
+                <option value = "3">three</option>
+                <option value = "4">four</option>
+              </select>
+
+                <br>
+                <label for="zip">Zip code</label>
+                <input type="text" id="zip">
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <hr class="third-hr">
+            <h4>Newsletter</h4>
+
+            <label for="news-type" class="checkbox-news">Select the newsletters you would like to receive</label>
+            <br><input type="checkbox" id="html" name="html_news">HTML news</input>
+            <br><input type="checkbox" id="css" name="css_news">CSS news</input>
+            <br><input type="checkbox" id="javascript" name="javascript_news">JavaScript news</input>
+
+            <br><br>
+            <label for="news-format">Newsletter format</label>
+            <br><input type="radio" id="html-radio" name="html_radio">HTML</input>
+            <br><input type="radio" id="text" name="text_radio">Plain text</input>
+
+            <br><br>
+            <label for="others">Other topics you'd like to hear about</label>
+            <br><textarea id="others" name="others_textarea"></textarea>
+        </fieldset>
+
+        <button type="submit">Sign up</button>
+    </main>
+
+    <footer class="footer">
+        <h5>Copyright The Code Review</h5>
+    </footer>
+
+</body>
+
+</html>

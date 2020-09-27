@@ -1,0 +1,221 @@
+@font-face {
+    font-family: Merriweather;
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+
+body {
+    font-family: Merriweather;
+}
+
+h1 {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1em 0;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: block;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: lightgrey;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+h4 {
+    margin-top: -8px;
+    font-size: 16x;
+}
+
+label {
+    font-size: 15px;
+}
+
+input,
+#state_selections {
+    width: 245px;
+    height: 45px;
+    display: block;
+    margin-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgb(241, 241, 241);
+    border: none;
+}
+
+#state_selections {
+    width: 275px;
+    margin-right: 20px;
+}
+
+input[type=text]:focus,
+#state_selections:focus,
+textarea:focus {
+    background-color: rgb(216, 215, 215);
+}
+
+::placeholder {
+    text-align: right;
+    text-transform: capitalize;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    margin-left: -100px;
+    margin-top: 45px;
+    margin-right: -60px;
+    display: inline-block;
+    zoom: 0.25;
+    font-size: 13px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 270px;
+    height: 90px;
+    border: none;
+    background-color: rgb(241, 241, 241);
+    padding: 5px;
+}
+
+button {
+    background-color: rgb(18, 214, 188);
+    width: 280px;
+    margin-left: 12px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: white;
+    font-family: Merriweather;
+}
+
+.first-hr {
+    background-color: black;
+    border: 0 none;
+    color: black;
+    height: 5px;
+}
+
+.second-hr,
+.third-hr {
+    background-color: black;
+    border: 0 none;
+    color: black;
+    height: 2px;
+    margin-top: -2px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+.footer {
+    text-align: center;
+    color: lightgrey;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 21px;
+    }
+    label {
+        font-size: 20px;
+    }
+    input,
+    #state_selections {
+        margin-left: 100px;
+        text-align: left;
+        width: 472px;
+        height: 60px;
+        display: inline-block;
+        margin-top: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+        background-color: rgb(241, 241, 241);
+        border: none;
+        font-size: 20px;
+    }
+    #full-name {
+        margin-left: 100px;
+    }
+    #email-address {
+        margin-left: 60px;
+    }
+    #phone-number {
+        margin-left: 55px;
+    }
+    #address {
+        margin-left: 60px;
+    }
+    #city {
+        margin-left: 160px;
+    }
+    #state_selections {
+        margin-left: 150px;
+        width: 499px;
+    }
+    #zip {
+        margin-left: 115px;
+    }
+    button {
+        width: 720px;
+        padding-bottom: 55px;
+        padding-top: 25px;
+        font-size: 24px;
+        margin: 10px;
+    }
+    textarea {
+        margin-top: 15px;
+        width: 700px;
+        height: 240px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .first-hr {
+        width: 50%;
+    }
+    .second-hr {
+        width: 50%;
+    }
+    .main-class {
+        margin: auto;
+        width: 50%;
+    }
+    input,
+    #state_selections {
+        width: 665px;
+    }
+    #state_selections {
+        width: 690px;
+    }
+    textarea {
+        width: 880px;
+    }
+    button {
+        margin-left: 110px;
+    }
+}
