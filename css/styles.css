@@ -35,7 +35,7 @@ h3 {
 
 h4 {
     margin-top: -8px;
-    font-size: 16x;
+    font-size: 16px;
 }
 
 label {
@@ -105,7 +105,6 @@ button {
 .first-hr {
     background-color: black;
     border: 0 none;
-    color: black;
     height: 5px;
 }
 
@@ -113,7 +112,6 @@ button {
 .third-hr {
     background-color: black;
     border: 0 none;
-    color: black;
     height: 2px;
     margin-top: -2px;
     margin-bottom: 20px;
@@ -181,41 +179,53 @@ fieldset {
         margin-left: 115px;
     }
     button {
-        width: 720px;
+        width: 85%;
         padding-bottom: 55px;
         padding-top: 25px;
         font-size: 24px;
         margin: 10px;
+        margin-left: 7%;
     }
     textarea {
         margin-top: 15px;
         width: 700px;
         height: 240px;
     }
+    input[type=checkbox],
+    input[type=radio] {
+        width: 40%;
+    }
+    #html {
+        text-indent: 10%;
+    }
 }
 
 @media (min-width: 1024px) {
     .first-hr {
-        width: 50%;
+        width: 75%;
     }
     .second-hr {
-        width: 50%;
+        width: 75%;
     }
     .main-class {
         margin: auto;
-        width: 50%;
+        width: 75%;
     }
     input,
     #state_selections {
-        width: 665px;
+        width: 63%;
+        display: inline-block;
     }
     #state_selections {
-        width: 690px;
+        width: 75%;
     }
     textarea {
-        width: 880px;
+        width: 85%;
+    }
+    #state_selections {
+        width: 485px;
     }
     button {
-        margin-left: 110px;
+        margin-left: 0%;
     }
 }
