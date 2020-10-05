@@ -15,14 +15,14 @@
         <h1>The Code Review</h1>
         <h2>Sign up for our newsletter</h2>
         <h3>Get the latest news on how your code is doing right in your inbox</h3>
-        <hr class="first-hr">
-        <hr class="second-hr">
     </header>
 
     <main class="main-class">
-        <fieldset>
-            <h4>Contact Information</h4>
-            <form>
+        <form>
+            <fieldset>
+                <hr class="first-hr">
+                <hr class="second-hr">
+                <h4>Contact Information</h4>
                 <label for="full-name">Full name</label>
                 <input type="text" id="full-name" name="full_name" placeholder="required">
 
@@ -53,37 +53,36 @@
 
                 <br>
                 <label for="zip">Zip code</label>
-                <input type="text" id="zip">
-            </form>
-        </fieldset>
+                <input type="text" id="zip" name="zip_code">
+            </fieldset>
 
-        <fieldset>
-            <hr class="third-hr">
-            <h4>Newsletter</h4>
+            <fieldset>
+                <hr class="third-hr">
+                <h4>Newsletter</h4>
 
-            <label>Select the type of newsletter you'd like to receive<br></label>
-            <input type="checkbox" id="html" name="html_news" value="html news">
-            <label for="html">HTML news</label><br>
-            <input type="checkbox" id="css" name="css_news" value="css news">
-            <label for="css">CSS news</label><br>
-            <input type="checkbox" id="javascript" name="javascript_news" value="javascript news">
-            <label for="javascript">JavaScript news</label><br>
+                <label>Select the type of newsletter you'd like to receive<br></label>
+                <input type="checkbox" id="html" name="html_news" value="html news">
+                <label for="html">HTML news</label><br>
+                <input type="checkbox" id="css" name="css_news" value="css news">
+                <label for="css">CSS news</label><br>
+                <input type="checkbox" id="javascript" name="javascript_news" value="javascript news">
+                <label for="javascript">JavaScript news</label><br>
 
-            <br><label>Newsletter format<br></label>
-            <input type="radio" id="javascript_radio" name="js_radio">
-            <label for="javascript_radio">JavaScript news</label><br>
+                <br><label>Newsletter format<br></label>
+                <input type="radio" id="javascript_radio" name="radio_selection">
+                <label for="javascript_radio">JavaScript news</label><br>
 
-            <input type="radio" id="text" name="text_radio">
-            <label for="text">Plain text</label><br>
+                <input type="radio" id="text" name="radio_selection">
+                <label for="text">Plain text</label><br>
 
-            <br><br>
-            <label for="others">Other topics you'd like to hear about</label>
-            <br><textarea id="others" name="others_textarea"></textarea>
-        </fieldset>
+                <br><br>
+                <label for="others">Other topics you'd like to hear about</label>
+                <br><textarea id="others" name="others_textarea"></textarea>
+            </fieldset>
 
-        <button type="submit">Sign up</button>
+            <button type="submit">Sign up</button>
+        </form>
     </main>
-
     <footer class="footer">
         <h5>Copyright The Code Review</h5>
     </footer>

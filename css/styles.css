@@ -127,6 +127,9 @@ fieldset {
 }
 
 @media (min-width: 768px) {
+    fieldset {
+        margin: 0px;
+    }
     h1 {
         font-size: 30px;
     }
@@ -144,9 +147,8 @@ fieldset {
     }
     input,
     #state_selections {
-        margin-left: 100px;
         text-align: left;
-        width: 472px;
+        width: 515px;
         height: 60px;
         display: inline-block;
         margin-top: 10px;
@@ -157,26 +159,27 @@ fieldset {
         font-size: 20px;
     }
     #full-name {
-        margin-left: 100px;
+        margin-left: 60px;
     }
     #email-address {
-        margin-left: 60px;
+        margin-left: 20px;
     }
     #phone-number {
-        margin-left: 55px;
+        margin-left: 15px;
     }
     #address {
-        margin-left: 60px;
+        margin-left: 20px;
     }
     #city {
-        margin-left: 160px;
+        margin-left: 120px;
     }
     #state_selections {
-        margin-left: 150px;
-        width: 499px;
+        margin-left: 110px;
+        width: 543px;
     }
     #zip {
-        margin-left: 115px;
+        margin-left: 75px;
+        width: 250px;
     }
     button {
         width: 85%;
@@ -193,7 +196,7 @@ fieldset {
     }
     input[type=checkbox],
     input[type=radio] {
-        width: 40%;
+        width: 10%;
     }
     #html {
         text-indent: 10%;
@@ -201,12 +204,6 @@ fieldset {
 }
 
 @media (min-width: 1024px) {
-    .first-hr {
-        width: 75%;
-    }
-    .second-hr {
-        width: 75%;
-    }
     .main-class {
         margin: auto;
         width: 75%;
@@ -217,15 +214,19 @@ fieldset {
         display: inline-block;
     }
     #state_selections {
-        width: 75%;
-    }
-    textarea {
-        width: 85%;
-    }
-    #state_selections {
         width: 485px;
     }
+    textarea {
+        width: 100%;
+    }
     button {
-        margin-left: 0%;
+        margin-left: 10px;
+        width: 100%;
+    }
+    input {
+        width: 71%;
+    }
+    #state_selections {
+        width: 74.85%;
     }
 }
