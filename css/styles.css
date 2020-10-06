@@ -1,10 +1,5 @@
-@font-face {
-    font-family: Merriweather;
-    src: url(../fonts/Merriweather-Regular.ttf);
-}
-
 body {
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
@@ -33,9 +28,10 @@ h3 {
     font-size: 16px;
 }
 
-h4 {
-    margin-top: -8px;
-    font-size: 16px;
+legend {
+    font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
 
 label {
@@ -139,8 +135,8 @@ fieldset {
     h3 {
         font-size: 22px;
     }
-    h4 {
-        font-size: 21px;
+    legend {
+        font-size: 25px;
     }
     label {
         font-size: 20px;
